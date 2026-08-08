@@ -41,7 +41,9 @@
           <div class="first-part">
             <div class="first-heading d-flex justify-content-between">
               <h4>Contact</h4>
-              <a href="./join3.html" class="text-decoration-underline fw-light">Sign in</a>
+              <a href="./join3.html" class="text-decoration-underline fw-light"
+                >Sign in</a
+              >
             </div>
             <input type="email" placeholder="Email" />
           </div>
@@ -131,7 +133,7 @@
             </div>
           </div>
           <div class="sixth-part">
-            <button type="button">Pay Now</button>
+            <button type="button" onclick="orderComplete()">Pay Now</button>
           </div>
           <div class="footer pt-3 mt-3 border-top border-2 pb-3">
             <footer>
@@ -205,7 +207,22 @@
         </div>
       </div>
     </main>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+    <!-- <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script>
+      function orderComplete() {
+        Swal.fire({
+          title: "Complete order!",
+          icon: "success",
+          draggable: true,
+        });
+      }
+    </script>
   </body>
 </html>

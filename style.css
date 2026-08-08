@@ -208,20 +208,29 @@ header .head-nav a{
     margin: 0 0.2%;
 }
 
-footer .row .col p{
+foot .row .col p{
     font-size: 90%;
 }
-footer .col input ,
-footer .col button{
-    font-size: 90%;
+foot .input-group input{
+    font-size: 70%;
+    border: 1px solid #6c757d;
     padding: 1%;
-    margin-bottom: 5%;
+    width: 80%;
+    height: 7vh;
+    
 }
-footer .col small{
+foot .input-group input:focus{
+    box-shadow: none;
+
+}
+foot .input-group input button:active{
+    border: none;
+}
+foot .col small{
     font-size: 80%;
 
 }
-footer .col img{
+foot .col img{
     width: 100%;
 }
 
@@ -255,7 +264,7 @@ footer .col img{
     width: 80%;
 }
 .suit-detail i{
-    font-size: 150%;
+    font-size: 100%;
     margin-top: 20%;
     cursor: pointer;
 }
@@ -347,7 +356,19 @@ footer .col img{
     transform: scale(1);
 }
 
+/* accordation */
+.accordion-item{
+    background-color: white;
+}
+.accordion-item button{
+    width: 100%;
+    background-color: white;
+}
 
+.accordion-item button:focus{
+    background-color: white;
+    box-shadow: none;
+}
 
 
 
@@ -498,7 +519,7 @@ input[type = "checkbox"]{
     height: 100vh;
     overflow: hidden;
 }
-.join3 main , footer{
+.join3 main , .join3 .footer{
     /* border: 1px solid black; */
     padding-left: 15%;
 }
@@ -534,7 +555,7 @@ input[type = "checkbox"]{
     background-image:url(/pics/sign-in.webp);
     background-size:cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
 }
 
 
