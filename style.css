@@ -551,12 +551,12 @@ input[type = "checkbox"]{
     /* border: none; */
     box-shadow: none;
 }
-.join3 .row .col-6:last-child{
+/* .join3 .row .col-6:last-child{
     background-image:url(/pics/sign-in.webp);
     background-size:cover;
     background-repeat: no-repeat;
     background-position: top;
-}
+} */
 
 
 
