@@ -1,555 +1,562 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-a{
-    text-decoration: none;
-    color: black;
+a {
+  text-decoration: none;
+  color: black;
 }
 
 /* hr{
     width: 100vw;
 } */
-body{
-    overflow-x: hidden;
+body {
+  overflow-x: hidden;
 }
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
 /* css for header */
-#first{
-    background-color: #c8bfb8;
-    width: 100vw;
-    margin: 0;
+#first {
+  background-color: #c8bfb8;
+  width: 100vw;
+  margin: 0;
 }
-header .head-nav{
-    height: 7vh;
+header .head-nav {
+  height: 7vh;
 }
-header .head-nav a{
-    font-size: 80%;
-    font-weight: 400;
+header .head-nav a {
+  font-size: 80%;
+  font-weight: 400;
 }
 
 /* css for primary-nav */
 
-.nav--bar{
-    position: sticky;
-    top: 0;  /*jab tak top 0 na hoa yeh ruka nhi*/
-    background-color: #ffffff;
-    z-index: 100;
+.nav--bar {
+  position: sticky;
+  top: 0; /*jab tak top 0 na hoa yeh ruka nhi*/
+  background-color: #ffffff;
+  z-index: 100;
 }
 
-.primary-nav{
-    height: 7vh;
-    width: 98vw;
+.primary-nav {
+  height: 7vh;
+  width: 98vw;
 }
-.logo-j img{
-    margin-right: 100%;
-    width: 17%;
-    font-weight: 800;
+.logo-j img {
+  margin-right: 100%;
+  width: 17%;
+  font-weight: 800;
 }
-.primary-nav a{
-    font-size: 90%;
+.primary-nav a {
+  font-size: 90%;
 }
 
 /* css for secoundary-nav */
 
-
-.secondary-nav{
-    /* border: 1px solid black; */
-    height: 1vh;
-    width: 98vw;
-    padding: 0 2%;
+.secondary-nav {
+  /* border: 1px solid black; */
+  height: 1vh;
+  width: 98vw;
+  padding: 0 2%;
 }
-.secondary-nav a{
-    font-size: 80%;
-    font-weight: 500;
+.secondary-nav a {
+  font-size: 80%;
+  font-weight: 500;
 }
-.type{
-    padding-right: 25%;
+.type {
+  padding-right: 25%;
 }
 
 /* css for mini label */
 
-.mini-label h6{
-    font-size: 60%;
-    line-height: 4.5;
-    font-weight: 400;
+.mini-label h6 {
+  font-size: 60%;
+  line-height: 4.5;
+  font-weight: 400;
 }
 
 /* css for primary label */
-.primary-label .label-icons i{
-    font-size: 110%;
+.primary-label .label-icons i {
+  font-size: 110%;
 }
 
 /* css for clothes items */
 
 .clothes-section .row {
-    margin: 1%;
+  margin: 1%;
 }
 
-.clothes-section .row .col p{
-    /* border: 1px solid black; */
-    margin: 0 0;
-    font-size: 1vw;
-    font-weight: 500;
-}
-.row-1 .col .hover img:last-child{
-    position: absolute;
-    width: 23.8%;
-    top: 65.4%;
-    opacity: 0;
-    transition: .3s all;
-}
- .row-1 .col .hover img:last-child:hover{
-    opacity: 1;
-}
-.row-2 .col .hover img:last-child{
-    position: absolute;
-    /* width: 21.8vw;
-    height: 65vh; */
-    width: 23.75%;
-    top: calc(73.1% * 2);
-    opacity: 0;
-    transition: .3s all;
-}
-.row-2 .col .hover img:last-child:hover{
-    opacity: 1;
-}
-.row-3 .col .hover img:last-child{
-    position: absolute;
-    width: 23.75%;
-    top: calc(75.6% * 3);
-    opacity: 0;
-    transition: .3s all;
-}
-.row-3 .col .hover img:last-child:hover{
-    opacity: 1;
-}
-.row-4 .col .hover img:last-child{
-    position: absolute;
-    width: 23.75%;
-    top: calc(76.83% * 4);
-    opacity: 0;
-    transition: .3s all;
-}
-.row-4 .col .hover img:last-child:hover{
-    opacity: 1;
-}
-.row-5 .col .hover img:last-child{
-    position: absolute;
-    width: 23.75%;
-    top: calc(77.58%*  5);
-    opacity: 0;
-    transition: .3s all;
-}
-.row-5 .col .hover img:last-child:hover{
-    opacity: 1;
-}
-.row-6 .col .hover img:last-child{
-    position: absolute;
-    width: 23.75%;
-    top: calc(78.665%*6);
-    opacity: 0;
-    transition: .3s all;
-}
-.row-6 .col .hover img:last-child:hover{
-    opacity: 1;
-}
-.row-7 .col .hover img:last-child{
-    position: absolute;
-    width: 23.76%;
-    top: calc(78.93%*7);
-    opacity: 0;
-    transition: .3s all;
-}
-.row-7 .col .hover img:last-child:hover{
-    opacity: 1;
-}
-.row-8 .col .hover img:last-child{
-    position: absolute;
-    width: 23.75%;
-    top: calc(79.13%*8);
-    opacity: 0;
-    transition: .3s all;
-}
-.row-8 .col .hover img:last-child:hover{
-    opacity: 1;
-}
-.row-9 .col .hover img:last-child{
-    position: absolute;
-    width: 23.75%;
-    top: calc(79.2781% * 9);
-    opacity: 0;
-    transition: .3s all;
-}
-.row-9 .col .hover img:last-child:hover{
-    opacity: 1;
+.clothes-section .row .col p {
+  /* border: 1px solid black; */
+  margin: 0 0;
+  font-size: 1vw;
+  font-weight: 500;
 }
 
-
-.filter{
-    transition: .29s all ease-in-out;
+.clothes-section .row .col .hover :hover {
+  opacity: 0;
 }
-.filter:hover{
-    filter: brightness(87%);
+.clothes-section .row-1 .row .col:nth-child(1) .hover {
+  background-image: url(pics/img1hover.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
- /* footer */
-
-.end-page .row .col p{
-    font-size: 90%;
-}
-.end-page .row .col div{
-    display: inline-block;
-    border: 1px solid #666666;
-    width: 2.5%;
-    margin: 0 0.2%;
+.clothes-section .row-1 .row .col:nth-child(2) .hover {
+  background-image: url(pics/img2hover.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-foot .row .col p{
-    font-size: 90%;
+.clothes-section .row-2 .row .col:nth-child(2) .hover {
+  background-image: url(pics/img6hover.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-foot .input-group input{
-    font-size: 70%;
-    border: 1px solid #6c757d;
-    padding: 1%;
-    width: 80%;
-    height: 7vh;
-    
+.clothes-section .row-2 .row .col:nth-child(3) .hover {
+  background-image: url(pics/img7hover.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-foot .input-group input:focus{
-    box-shadow: none;
-
-}
-foot .input-group input button:active{
-    border: none;
-}
-foot .col small{
-    font-size: 80%;
-
-}
-foot .col img{
-    width: 100%;
+.clothes-section .row-2 .row .col:nth-child(4) .hover {
+  background-image: url(pics/img8hover.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
+.clothes-section .row-3 .row .col:nth-child(1) .hover {
+  background-image: url(pics/img9hover.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
+.clothes-section .row-4 .row .col:nth-child(4) .hover {
+  background-image: url(pics/img16hover.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
+.clothes-section .row-5 .row .col:nth-child(2) .hover {
+  background-image: url(pics/img18hover.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.clothes-section .row-5 .row .col:nth-child(3) .hover {
+  background-image: url(pics/img19hover.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
+.clothes-section .row-6 .row .col:nth-child(4) .hover {
+  background-image: url(pics/img24hover.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.clothes-section .row-7 .row .col:nth-child(2) .hover {
+  background-image: url(pics/img26hover.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.clothes-section .row-7 .row .col:nth-child(4) .hover {
+  background-image: url(pics/img28hover.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.clothes-section .row-8 .row .col:nth-child(1) .hover {
+  background-image: url(pics/img29hover.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.clothes-section .row-8 .row .col:nth-child(3) .hover {
+  background-image: url(pics/img31hover.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.clothes-section .row-8 .row .col:nth-child(4) .hover {
+  background-image: url(pics/img32hover.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.clothes-section .row-9 .row .col:nth-child(2) .hover {
+  background-image: url(pics/img34hover.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.clothes-section .row-9 .row .col:nth-child(3) .hover {
+  background-image: url(pics/img35hover.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.clothes-section .row-9 .row .col:nth-child(4) .hover {
+  background-image: url(pics/img36hover.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.filter {
+  transition: 0.29s all ease-in-out;
+}
+.filter:hover {
+  filter: brightness(87%);
+}
+/* footer */
+
+.end-page .row .col p {
+  font-size: 90%;
+}
+.end-page .row .col div {
+  display: inline-block;
+  border: 1px solid #666666;
+  width: 2.5%;
+  margin: 0 0.2%;
+}
+
+foot .row .col p {
+  font-size: 90%;
+}
+foot .input-group input {
+  font-size: 70%;
+  border: 1px solid #6c757d;
+  padding: 1%;
+  width: 80%;
+  height: 7vh;
+}
+foot .input-group input:focus {
+  box-shadow: none;
+}
+foot .input-group input button:active {
+  border: none;
+}
+foot .col small {
+  font-size: 80%;
+}
+foot .col img {
+  width: 100%;
+}
 
 /* CSS for join 1 */
 
 /* css for suit information */
 /* css for suit-pics img */
 
-.suit-pics img{
-    width: 49.649%;
+.suit-pics img {
+  width: 49.649%;
 }
 
 /* css for suit details */
 
-.suit-detail small{
-    font-size: 70%;
-    font-weight: light;
+.suit-detail small {
+  font-size: 70%;
+  font-weight: light;
 }
 
-.suit-detail .stars i{
-    font-size: 80%;
-    cursor: pointer;
-    margin: 0;
+.suit-detail .stars i {
+  font-size: 80%;
+  cursor: pointer;
+  margin: 0;
 }
 
-.suit-detail button{
-    width: 80%;
+.suit-detail button {
+  width: 80%;
 }
-.suit-detail i{
-    font-size: 100%;
-    margin-top: 20%;
-    cursor: pointer;
+.suit-detail i {
+  font-size: 100%;
+  margin-top: 20%;
+  cursor: pointer;
 }
 .suit-detail span {
-    color: #00af66;
-    font-weight: 600;
+  color: #00af66;
+  font-weight: 600;
 }
 .review .dabba {
-    background-color: #f5f4f4;
+  background-color: #f5f4f4;
 }
-.review .dabba h5 small{
-    font-size: 60%;
+.review .dabba h5 small {
+  font-size: 60%;
 }
 
-.line .progress{
-    width: 50%;
-    height: 3px;
-    background-color: #dcdbdb;
-    transition: all .0155;
+.line .progress {
+  width: 50%;
+  height: 3px;
+  background-color: #dcdbdb;
+  transition: all 0.0155;
 }
-.progress:hover{
-    background-color: #756f6fb4;
-    box-shadow: 0 0 1px #929191b4;
+.progress:hover {
+  background-color: #756f6fb4;
+  box-shadow: 0 0 1px #929191b4;
 }
-.review-button .btn{
-    width: 20vw;
+.review-button .btn {
+  width: 20vw;
 }
-.review-bars .line{
-    text-align: end;
+.review-bars .line {
+  text-align: end;
 }
-.name-date span{
-    padding: .5% 1%;
-    border-radius: 50% ;
-    background-color: #dcdbdb;
+.name-date span {
+  padding: 0.5% 1%;
+  border-radius: 50%;
+  background-color: #dcdbdb;
 }
 /* clothes section */
-.clothes-2 .img-fluid{
-    height: 80%;
+.clothes-2 .img-fluid {
+  height: 80%;
 }
-.clothes-2 .row .col p{
-    /* border: 1px solid black; */
-    margin: 0 0;
-    display: inline-block;
-    font-size: 76%;
-    font-weight: 500;
+.clothes-2 .row .col p {
+  /* border: 1px solid black; */
+  margin: 0 0;
+  display: inline-block;
+  font-size: 76%;
+  font-weight: 500;
 }
 
 /* hover via css */
 
-
-.clothes-2 .row .col .tas img{
-    /* height: 300px ; */
-    height: 23.45vw;
-}
-.clothes-2 .row .col:nth-child(3) .tas :hover{
-    opacity: 0;
+.clothes-2 .row .col .tas img {
+  /* height: 300px ; */
+  height: 23.45vw;
 }
 .clothes-2 .row .col:nth-child(3) .tas:hover {
-    /* height: 80%; */
-    /* width: 25%; */
-    background-image: url(./pics/img2hover.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    transform: scale(1);
+  opacity: 0;
 }
-.clothes-2 .row .col:nth-child(1) .tas :hover{
-    opacity: 0;
+.clothes-2 .row .col:nth-child(3) .tas:hover {
+  /* height: 80%; */
+  /* width: 25%; */
+  background-image: url(./pics/img2hover.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: scale(1);
+}
+.clothes-2 .row .col:nth-child(1) .tas :hover {
+  opacity: 0;
 }
 .clothes-2 .row .col:nth-child(1) .tas:hover {
-    /* height: 80%; */
-    /* width: 25%; */
-    background-image: url(./pics/img8hover.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    transform: scale(1);
+  /* height: 80%; */
+  /* width: 25%; */
+  background-image: url(./pics/img8hover.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: scale(1);
 }
-.clothes-2 .row .col:nth-child(5) .tas :hover{
-    opacity: 0;
+.clothes-2 .row .col:nth-child(5) .tas :hover {
+  opacity: 0;
 }
 .clothes-2 .row .col:nth-child(5) .tas:hover {
-    /* height: 80%; */
-    /* width: 25%; */
-    background-image: url(./pics/img28hover.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    transform: scale(1);
+  /* height: 80%; */
+  /* width: 25%; */
+  background-image: url(./pics/img28hover.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: scale(1);
 }
 
 /* accordation */
-.accordion-item{
-    background-color: white;
+.accordion-item {
+  background-color: white;
 }
-.accordion-item button{
-    width: 100%;
-    background-color: white;
-}
-
-.accordion-item button:focus{
-    background-color: white;
-    box-shadow: none;
+.accordion-item button {
+  width: 100%;
+  background-color: white;
 }
 
-
+.accordion-item button:focus {
+  background-color: white;
+  box-shadow: none;
+}
 
 /* CSS for join 2 */
 
-
- /* css for nav */
-nav .nav-join2{
-    height: 16.5dvh;
-    width: 100dvw;
-    padding: 0 11.8dvw;
+/* css for nav */
+nav .nav-join2 {
+  height: 16.5dvh;
+  width: 100dvw;
+  padding: 0 11.8dvw;
 }
 
-.detailing{
-    margin: 0;
-    padding: 0 0 0 11.8dvw ;
+.detailing {
+  margin: 0;
+  padding: 0 0 0 11.8dvw;
 }
 /* css for input areas, class detailing first child */
-.inputs-areas input{
-    height: 8dvh;
-    width: 35dvw;
-    margin: 1vh 0;
-    padding: 2%;
-    border-radius: 12px;
-    border: 1px solid #eaeaea;
+.inputs-areas input {
+  height: 8dvh;
+  width: 35dvw;
+  margin: 1vh 0;
+  padding: 2%;
+  border-radius: 12px;
+  border: 1px solid #eaeaea;
 }
- /* css for input areas childs */
-.first-part{
-    padding-top: 10%;
+/* css for input areas childs */
+.first-part {
+  padding-top: 10%;
 }
 
-.second-part .double{
-    width: 49%; 
+.second-part .double {
+  width: 49%;
 }
-input[type = "checkbox"]{
-    height: 1rem;
-    margin-left: -48%;
+input[type="checkbox"] {
+  height: 1rem;
+  margin-left: -48%;
 }
-.second-part span{
-    margin-left: -47%;
+.second-part span {
+  margin-left: -47%;
 }
 /* css for input areas secound child */
-.product-detail .row{
-    height: 7%;
-    padding-top: 10%;
+.product-detail .row {
+  height: 7%;
+  padding-top: 10%;
 }
-.details{
-    padding: 4% 5%;
+.details {
+  padding: 4% 5%;
 }
 
 /* css for third part */
-.inputs-areas p{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.inputs-areas p {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.methods{
-    font-size: 90%;
-    background-color: #f6f6f6;
-    /* padding: 3%; */
-    border-radius: 2.5vh;
-    /* border: 1px solid black; */
-    margin-bottom: 5%;
+.methods {
+  font-size: 90%;
+  background-color: #f6f6f6;
+  /* padding: 3%; */
+  border-radius: 2.5vh;
+  /* border: 1px solid black; */
+  margin-bottom: 5%;
 }
 /* css for forth part */
- .methods span{
-    border: 1px solid #dedede;
-    display: inline-block;
-    width: 1dvw;
-    padding: 1.9%;
-    margin-bottom: 0%;
-    border-radius: 50%;
+.methods span {
+  border: 1px solid #dedede;
+  display: inline-block;
+  width: 1dvw;
+  padding: 1.9%;
+  margin-bottom: 0%;
+  border-radius: 50%;
 }
-.part-three{
-    font-size: 90%;
-    font-weight: 600;
+.part-three {
+  font-size: 90%;
+  font-weight: 600;
 }
 
 /* css for fifth part  */
 
-.fifth-part .methods p:first-child{
-    border: 1px solid black;
-    border-radius: 12px 12px 0 0;
+.fifth-part .methods p:first-child {
+  border: 1px solid black;
+  border-radius: 12px 12px 0 0;
 }
 
 /* css for sixth part  */
-.sixth-part button{
-    width: 100%;
-    height: 8vh;
-    border-radius: 15px;
-    background-color: black ;
-    border: none;
-    color: white;
-    font-weight: 500;
+.sixth-part button {
+  width: 100%;
+  height: 8vh;
+  border-radius: 15px;
+  background-color: black;
+  border: none;
+  color: white;
+  font-weight: 500;
 }
-
-
-
-
-
 
 /* css for product details */
 
-
-
-.product-detail{
-    background-color: #f5f5f5;
-    padding-right: 9dvw;
-    height: 100vh;
+.product-detail {
+  background-color: #f5f5f5;
+  padding-right: 9dvw;
+  height: 100vh;
 }
-.product-detail .first-row .row .col-7 p{
-    /* border: 1px solid black; */
-    margin: 0;
-    padding: 0;
-    font-size: 85%;
+.product-detail .first-row .row .col-7 p {
+  /* border: 1px solid black; */
+  margin: 0;
+  padding: 0;
+  font-size: 85%;
 }
-.product-detail .first-row .row .col-7 p:last-child{
-    font-size: 70%;
-    color: #666666;
+.product-detail .first-row .row .col-7 p:last-child {
+  font-size: 70%;
+  color: #666666;
 }
-.product-detail .secound-row .row .col-10 input{
-    width: 30vw;
-    height: 9dvh;
-    border-radius: 9px;
-    padding: 0 2%;
-    /* font-size: 3.4vh; */
-    border: 1px solid #dedede;
-    background-color: white;
+.product-detail .secound-row .row .col-10 input {
+  width: 30vw;
+  height: 9dvh;
+  border-radius: 9px;
+  padding: 0 2%;
+  /* font-size: 3.4vh; */
+  border: 1px solid #dedede;
+  background-color: white;
 }
-.product-detail .secound-row .row .col-2 button{
-    width: 5vw;
-    height: 9vh;
-    border-radius: 9px;
-    border: 1px solid #dedede;
-    color: #7a7a7a;
+.product-detail .secound-row .row .col-2 button {
+  width: 5vw;
+  height: 9vh;
+  border-radius: 9px;
+  border: 1px solid #dedede;
+  color: #7a7a7a;
 }
-.span{
-    font-size: 80%;
-    font-weight: normal;
-    color: #666666;
+.span {
+  font-size: 80%;
+  font-weight: normal;
+  color: #666666;
 }
-
 
 /* css for join3 */
 
-.join3{
-    background-color: #c8bfb8;
-    height: 100vh;
-    overflow: hidden;
+.join3 {
+  background-color: #c8bfb8;
+  height: 100vh;
+  overflow: hidden;
 }
-.join3 main , .join3 .footer{
-    /* border: 1px solid black; */
-    padding-left: 15%;
-}
-
-.join3 main .head p{
-    font-size: 90%;
-    margin: 0;
-    padding: 0;
-    color: #585451;
+.join3 main,
+.join3 .footer {
+  /* border: 1px solid black; */
+  padding-left: 15%;
 }
 
-.join3 main .btn-primary{
-    background-color: #5433eb;
-    color: #fff;
-    padding: 2% 10%;
-    width: 80%;
-    font-size: 1.5vw;
+.join3 main .head p {
+  font-size: 90%;
+  margin: 0;
+  padding: 0;
+  color: #585451;
 }
 
-.join3 .input-feilds .input-group span{
-    border: none;
-    background-color: #ffffff;
+.join3 main .btn-primary {
+  background-color: #5433eb;
+  color: #fff;
+  padding: 2% 10%;
+  width: 80%;
+  font-size: 1.5vw;
 }
-.join3 .secound .input-group{
-    /* border: 1px solid blue; */
-    width: 80%;
+
+.join3 .input-feilds .input-group span {
+  border: none;
+  background-color: #ffffff;
+}
+.join3 .secound .input-group {
+  /* border: 1px solid blue; */
+  width: 80%;
 }
 .join3 .form-control:focus {
-    /* border: none; */
-    box-shadow: none;
+  /* border: none; */
+  box-shadow: none;
 }
 /* .join3 .row .col-6:last-child{
     background-image:url(/pics/sign-in.webp);
@@ -558,8 +565,4 @@ input[type = "checkbox"]{
     background-position: top;
 } */
 
-
-
-
 /* responsiveness start here */
-
